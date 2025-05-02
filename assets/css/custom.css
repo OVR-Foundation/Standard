@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Gothic_a1';
+    src: url('/fonts/Gothic_A1/GothicA1-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.content {
+    font-family: "Gothic_a1", Times, serif;
+}
+
+/*:root {*/
+/*    --primary-hue: 233deg;*/
+/*    --primary-saturation: 62%;*/
+/*    --primary-lightness: 10%;*/
+/*}*/
+
+
+/*body {*/
+/*    background-color: #f0f0f0;*/
+/*}*/
+
+/*body:is(html[class~="dark"] *) {*/
+/*    background-color: #0a0e2a; !* Ersetze #0a0e2a durch die gewünschte Farbe *!*/
+/*}*/

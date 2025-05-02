@@ -1,41 +1,30 @@
-# Website
+# OVR Foundation Project
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+The OVR Foundation is dedicated to building open, decentralized, and reliable standards for vulnerability reporting. This project provides the tools, documentation, and resources to support the development and adoption of the Open Vulnerability Record (OVR) framework.
 
-### Installation
+---
 
-```
-$ yarn
-```
+## 📖 Documentation
 
-### Local Development
+Explore the following sections to learn more about the project:
 
-```
-$ yarn start
-```
+- [Community](content/docs/community)  
+  Learn how to engage with the community and contribute to the OVR Foundation.
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+- [Proposals (OVR-P)](content/docs/community/proposals.md)  
+  Understand the process for proposing changes to the OVR Standard.
 
-### Build
+- [Get Involved](content/docs/community/get-involved.md)  
+  Discover ways to contribute to the mission of building open vulnerability standards.
 
-```
-$ yarn build
-```
+- [Architecture](content/docs/poc/architecture.md)  
+  Dive into the conceptual structure of the OVR Proof of Concept.
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+---
 
-### Deployment
+## 🚀 Getting Started
 
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ovr-foundation/standard.git
+   cd standard

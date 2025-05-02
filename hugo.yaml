@@ -1,0 +1,74 @@
+# Hugo configuration file
+title: OVR Foundation
+
+# import hextra as module
+module:
+  imports:
+    - path: github.com/imfing/hextra
+
+markup:
+  # allow raw html
+  goldmark:
+    renderer:
+      unsafe: true
+
+  # enable hextra syntax highlight
+  highlight:
+    noClasses: false
+
+menu:
+  main:
+    - name: Proof of Concept
+      pageRef: /docs/poc
+      weight: 1
+    - name: Community
+      pageRef: /docs/community
+      weight: 2
+    - name: Documentation
+      pageRef: /docs
+      weight: 3
+    - name: Contact ↗
+      url: "https://ovr-foundation.org/contact"
+      weight: 4
+    - name: Search
+      weight: 8
+      params:
+        type: search
+    - name: GitHub
+      weight: 5
+      url: "https://github.com/OVR-Foundation"
+      params:
+        icon: github
+    - name: Mastodon
+      weight: 6
+      url: "https://infosec.exchange/@ovr/"
+      params:
+        icon: mastodon
+    - name: Home
+      url: https://ovr-foundation.org
+      weight: 7
+      params:
+        icon: home
+
+params:
+  displayUpdatedDate: true
+  #dateFormat: "January 2, 2006"
+  navbar:
+    displayTitle: true
+    displayLogo: true
+    logo:
+      src: "/images/logo.svg"
+      alt: "OVR Foundation Logo"
+      width: 32
+      height: 32
+
+  footer:
+    displayCopyright: true
+    displayPoweredBy: false
+
+  editURL:
+    enable: true
+    base: "https://github.com/ovr-foundation/standard/edit/main/content"
+
+# Parse Git commit
+enableGitInfo: true
